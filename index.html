@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="index.css">
+
+    <title>Scientific Calculator...</title>
+
+</head>
+
+<script src="app.js"></script>
+
+<body>
+
+    <form name="calcBody">
+
+                <h3>SCIENTIFIC CALCULATOR</h3>
+
+                <input class="display" name="screen" type="text" placeholder="0"> <br>
+
+                <div class="row">
+
+                    <input name="negative" type="button" value="(-)" onClick="btnClicked('-')">
+
+                    <input name="leftBrac" type="button" value="(" onClick="btnClicked('(')">
+
+                    <input name="rightBrac" type="button" value=")" onClick="btnClicked(')')">
+
+                    <input class="clear-btn" name="clear" type="button" value="AC" onClick="reset()">
+
+                    <input name="backspace" type="button" value="⟵" onClick="backspace()">
+
+                </div>
+
+                <div class="row">
+
+                        <input name="arcsin" type="button" value="arcsin" onClick="arcsinx()">
+
+                        <input name="cos" type="button" value="cos" onClick="cosx()">
+
+                        <input name="sin" type="button" value="sin" onClick="sinx()">
+
+                        <input name="tan" type="button" value="tan" onClick="tanx()">
+
+                        <input name="1/x" type="button" value="1/x" onClick="division()">
+
+                    </div>
+
+                <div class="row">
+
+                    <input name="arccos" type="button" value="arccos" onClick="arccosx()">
+
+                    <input name="log" type="button" value="log" onClick="log()">
+
+                    <input name="ln" type="button" value="ln" onClick="ln()">
+
+                    <input name="%" type="button" value="%" onClick="percentx()">
+
+                    <input name="sqr" type="button" value="x^2" onClick="square()">
+
+                </div>
+
+                <div class="row">
+
+                    <input name="arctan" type="button" value="arctan" onClick="arctanx()">
+
+                    <input name="e^x" type="button" value="e^x" onClick="btnClicked()">
+
+                    <input name="π" type="button" value="π" onClick="btnClicked('3.14')">
+
+                    <input name="cube" type="button" value="x^3" onClick="cubex()">
+
+                    <input name="/" type="button" value="/" onClick="btnClicked('/')">
+
+                </div>
+
+                <div class="row">
+
+                    <input name="ten" type="button" value="10^x" onClick="tenx()">
+
+                    <input class="numbers-btn" name="1" type="button" value="1" onClick="btnClicked('1')">
+
+                    <input class="numbers-btn" name="2" type="button" value="2" onClick="btnClicked('2')">
+
+                    <input class="numbers-btn" name="3" type="button" value="3" onClick="btnClicked('3')">
+
+                    <input name="+" type="button" value="+" onClick="btnClicked('+')">
+
+                </div>
+
+                <div class="row">
+
+                    <input name="cbroot" type="button" value="cbrt√" onClick="cbRoot()">
+
+                    <input class="numbers-btn" name="4" type="button" value="4" onClick="btnClicked('4')">
+
+                    <input class="numbers-btn" name="5" type="button" value="5" onClick="btnClicked('5')">
+
+                    <input class="numbers-btn" name="6" type="button" value="6" onClick="btnClicked('6')">
+
+                    <input name="-" type="button" value="-" onClick="btnClicked('-')">
+
+                </div>
+
+                <div class="row">
+
+                    <input name="sqrt" type="button" value="√" onClick="sqrRoot()">
+
+                    <input class="numbers-btn" name="7" type="button" value="7" onClick="btnClicked('7')">
+
+                    <input class="numbers-btn" name="8" type="button" value="8" onClick="btnClicked('8')">
+
+                    <input class="numbers-btn" name="9" type="button" value="9" onClick="btnClicked('9')">
+
+                    <input name="*" type="button" value="X" onClick="btnClicked('*')">
+
+                </div>
+
+                <div class="row">
+
+                    <input class="clear-btn" name="off" type="button" value="OFF" onClick="ac()">
+
+                    <input name="0" type="button" value="0" onClick="btnClicked('0')">
+
+                    <input name="00" type="button" value="00" onClick="btnClicked('00')">
+
+                    <input name="." type="button" value="." onClick="btnClicked('.')">
+
+                    <input class="equal-btn" name="=" type="button" value="=" onClick="result()">
+
+                </div>
+
+           
+
+    </form>
+
+   
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+body{
+
+    background: rgb(24, 145, 201);
+
+}
+
+form{
+
+    border-radius: 20px;
+
+    color: white;
+
+    padding: 5px;
+
+    margin: auto;
+
+    width: 50%;
+
+    min-width: 350px;
+
+    max-width: 360px;
+
+    background: black;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+ 
+
+input{
+
+    background: darkgray;
+
+    padding: 5px;
+
+    margin: 5px;
+
+    color: black;
+
+    border-radius: 50px;
+
+    width: 56px;
+
+    font-size: 14px;
+
+    font-weight: bolder;
+
+    cursor: pointer;
+
+}
+
+   
+
+input:focus {
+
+    outline:0;
+
+}
+
+.display{
+
+    height: 80px;
+
+    background: coral;
+
+    width: 90%;
+
+    font-size: 45px;
+
+}
+
+.equal-btn{
+
+    background: green;
+
+}
+
+.numbers-btn{
+
+    background: honeydew;
+
+    color: black;
+
+}
+
+.clear-btn{
+
+    background: red;
+
+}
